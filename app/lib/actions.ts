@@ -17,7 +17,6 @@ const CreateInvoice = FormSchema.omit({ id: true, date: true });
 const UpdateInvoice = FormSchema.omit({ id: true, date: true });
 
 export async function createInvoice(formData: FormData) {
-
   try {
     const { customerId, amount, status } = CreateInvoice.parse({
       customerId: formData.get("customerId"),
@@ -73,3 +72,4 @@ export async function deleteInvoice(id: string) {
     // Handle error
     throw new Error("Failed to delete invoice.");
   }
+}
