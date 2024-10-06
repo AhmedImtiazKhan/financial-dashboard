@@ -1,3 +1,7 @@
+
+
+
+
 Financial Dashboard Application
 This project is a Financial Dashboard Application built using Next.js, following the Next.js official course. It implements key concepts such as dynamic routing, server-side rendering, authentication, and error handling, following the chapters of the course.
 
@@ -36,30 +40,25 @@ A public home page.
 A login page.
 Dashboard pages that are protected by authentication.
 The ability for users to add, edit, and delete invoices.
-How to Run the Project:
-Install pnpm globally (if you haven't already):
+# nextjs-dashboard
+A public home page.
+A login page.
+Dashboard pages that are protected by authentication.
+The ability for users to add, edit, and delete invoices.
 
-bash
-Copy code
+
+How to run after cloning:
+# Install pnpm globally if you haven't already
 npm install -g pnpm
-Navigate to the project directory:
 
-bash
-Copy code
+# Navigate to the project directory
 cd your-project-directory
-Install project dependencies:
 
-bash
-Copy code
+# Install project dependencies
 pnpm install
-Start the development server:
 
-bash
-Copy code
+# Start the development server
 pnpm run dev
-Access the application:
 
-Open your browser and navigate to http://localhost:3000
-Deployment:
-This application is deployed on Vercel, leveraging the Next.js optimized build and deployment capabilities.
+# Access the application at http://localhost:3000
 
